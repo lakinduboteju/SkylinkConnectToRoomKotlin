@@ -36,6 +36,21 @@ override fun onResume() {
 }
 ```
 
+## Sample app
+
+This repository contains an Android Studio (2020.3.1 Patch 4) project of a simple app that demonstrate how to accurately wait for Skylink room connection in a background thread using Kotlin coroutines.
+
+Before building and running app, please set your Skylink Key ID and secret in `app/src/main/res/values/skylink_config.xml`.
+
+``` xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="skylink_key_id">Your Skylink Key ID should come here</string>
+    <string name="skylink_key_secret">Your Skylink Key secret should come here</string>
+    ...
+</resources>
+```
+
 Screenshots of running app.
 
 ![Sample app screenshot 1](figures/Screenshot_1644302094.png)
